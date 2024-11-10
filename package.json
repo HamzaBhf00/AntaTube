@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "next-sitemap && npm run generate-sitemap",
-    "generate-sitemap": "ts-node --project tsconfig.node.json scripts/generate-sitemap.ts",
+    "postbuild": "next-sitemap",
     "analyze": "ANALYZE=true next build"
   },
   "dependencies": {
@@ -78,6 +77,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^15.0.3",
-    "@types/prettier": "^2.7.3"
+    "@types/prettier": "^2.7.3",
+    "ts-node": "^10.9.1"
   }
 }
