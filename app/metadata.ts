@@ -8,13 +8,13 @@ export const defaultMetadata: Metadata = {
 
   title: {
 
-    default: 'AntaTube - Your Video Platform',
+    default: 'AntaTube - Your Lightweight YouTube Experience',
 
     template: '%s | AntaTube'
 
   },
 
-  description: 'AntaTube is your go-to video platform for entertainment and learning. Watch, share, and discover videos from around the world.',
+  description: 'Enjoy videos in a lightweight mode. Simply paste any YouTube URL.',
 
   keywords: [
 
@@ -24,13 +24,13 @@ export const defaultMetadata: Metadata = {
 
     'entertainment',
 
-    'learning',
+    'youTube videos',
 
-    'video sharing',
+    'youtube player',
 
     'online videos',
 
-    'educational content'
+    'youtube content'
 
   ],
 
@@ -82,9 +82,9 @@ export const defaultMetadata: Metadata = {
 
     siteName: 'AntaTube',
 
-    title: 'AntaTube - Your Video Platform',
+    title: 'AntaTube - Your Lightweight YouTube Experience',
 
-    description: 'AntaTube is your go-to video platform for entertainment and learning. Watch, share, and discover videos from around the world.',
+    description: 'Enjoy videos in a lightweight mode. Simply paste any YouTube URL.',
 
     images: [
 
@@ -108,9 +108,9 @@ export const defaultMetadata: Metadata = {
 
     card: 'summary_large_image',
 
-    title: 'AntaTube - Your Video Platform',
+    title: 'AntaTube - Your Lightweight YouTube Experience',
 
-    description: 'AntaTube is your go-to video platform for entertainment and learning. Watch, share, and discover videos from around the world.',
+    description: 'Enjoy videos in a lightweight mode. Simply paste any YouTube URL.',
 
     creator: '@antatube',
 
@@ -125,7 +125,6 @@ export const defaultMetadata: Metadata = {
     languages: {
 
       'en-US': 'https://antatube.com',
-      'uk-UK': 'https://antatube.com',
     },
 
   },
