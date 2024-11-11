@@ -10,19 +10,19 @@ const features = [
     title: "Watch Your YouTube Videos",
     description: "Instantly stream any YouTube video without interruptions. Perfect for tutorials, entertainment, or educational content!",
     icon: Youtube,
-    thumbnail: "/video.jpg"
+    thumbnail: "/imgs/video.webp"
   },
   {
     title: "Enjoy Your Playlists",
     description: "From educational courses to your favorite music playlists - enjoy continuous playback without distractions.",
     icon: PlaySquare,
-    thumbnail: "/playlist.jpg"
+    thumbnail: "/imgs/playlist.webp"
   },
   {
     title: "Listen to Podcasts",
-    description: "Turn YouTube into your podcast player! Perfect for long-form content and educational series.",
+    description: "Turn YouTube into your podcast player! Perfect for long-form content and educational series without interruptions.",
     icon: Headphones,
-    thumbnail: "/podcast.jpg"
+    thumbnail: "/imgs/podcast.webp"
   }
 ];
 

@@ -42,7 +42,7 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <div className="flex justify-center mb-8 mt-8">
+          <div className="flex justify-center mb-8">
             <Badge variant="secondary" className="px-4 py-1 text-sm flex items-center gap-2">
               <Youtube className="h-4 w-4" />
               Watch YouTube Videos
@@ -51,16 +51,15 @@ export default function Hero() {
 
           <div className="space-y-2 mb-4 mt-8">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-              Transform Your Content with
+            Enjoy YouTube Videos
             </h1>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-primary">
-              AntaTube
+            Hassle-Free!
             </h1>
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Experience seamless video streaming and sharing. Paste any YouTube URL
-            to preview how your content will look on our platform.
+          Enjoy videos in a lightweight mode. Simply paste any YouTube URL.
           </p>
           <div className="space-y-4 max-w-2xl mx-auto">
             <div className="relative">

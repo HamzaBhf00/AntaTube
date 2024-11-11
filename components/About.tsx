@@ -18,7 +18,7 @@ export default function About() {
             className="relative h-[500px] mb-12 lg:mb-0"
           >
             <Image
-              src="/about.png"
+              src="/imgs/about.png"
               alt="AntaTube Platform"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -36,20 +36,21 @@ export default function About() {
             className="lg:pl-8"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Empowering Content Creators Since 2024
+              A Lightweight YouTube Experience for Everyone
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              AntaTube began with a vision to revolutionize how we experience YouTube content. 
-              Today, we're proud to serve thousands of users worldwide, helping them enjoy 
-              their favorite content without interruptions.
-            </p>
+              AntaTube was designed to address the challenges many users face – from slow internet connections to low laptop performance and distractions. We provide a streamlined, lightweight platform for those who want to enjoy YouTube content without interruptions or frustration.            </p>
             <p className="text-lg text-muted-foreground mb-8">
-              Our platform combines cutting-edge technology with intuitive design,
-              ensuring that everyone can enjoy a seamless streaming experience that
-              puts content first.
+              AntaTube is here to solve real-world problems, offering a smooth, distraction-free experience that lets users focus on what matters most – the content. We’re committed to making YouTube accessible, enjoyable, and easy to use, no matter the device or connection.
             </p>
-            <Button size="lg" className="group">
-              Learn More About Us
+
+            <Button size="lg" className="group" onClick={() => {
+              const element = document.getElementById('video-player');
+              if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}>
+              Watch Now
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
           </motion.div>

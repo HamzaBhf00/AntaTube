@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import { 
-  Youtube, 
+  Radio, 
   Shield, 
   Zap, 
-  Share2,
+  HeartPulse,
   Globe,
-  Palette
+  MonitorPlay
 } from "lucide-react";
 import {
   Card,
@@ -38,7 +38,7 @@ const features = [
     ]
   },
   {
-    icon: Youtube,
+    icon: Radio,
     title: "Universal Compatibility",
     description: "Works with all types of YouTube content seamlessly.",
     details: [
@@ -48,13 +48,13 @@ const features = [
     ]
   },
   {
-    icon: Share2,
-    title: "Easy Sharing",
-    description: "Share your favorite content across any platform instantly.",
+    icon: HeartPulse,
+    title: "Better Viewing Experience",
+    description: "Watch videos with features that prioritize comfort and focus.",
     details: [
-      "One-click sharing",
-      "Custom timestamps",
-      "Direct link copying"
+      "Dark mode for eye comfort",
+      "Simple, intuitive interface",
+      "Lightweight and distraction-free"
     ]
   },
   {
@@ -68,13 +68,13 @@ const features = [
     ]
   },
   {
-    icon: Palette,
-    title: "Customizable Player",
-    description: "Personalize your viewing experience to your preferences.",
+    icon: MonitorPlay,
+    title: "Familiar Player",
+    description: "Enjoy a familiar viewing experience, just like YouTube.",
     details: [
-      "Custom playback speeds",
+      "Enable subtitles",
       "Quality selection",
-      "Theater mode"
+      "More playback controls"
     ]
   }
 ];

@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import {
   Card,
-  CardContent,
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
@@ -12,23 +11,23 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 const testimonials = [
   {
     quote: "AntaTube has completely transformed how I enjoy YouTube content. The platform is intuitive and the ad-free experience is amazing.",
-    author: "Sarah Johnson",
+    author: "Sam Johnson",
     role: "Content Creator",
-    avatar: "/avatars/sarah.jpg",
+    avatar: "/avatars/sam.webp",
     avatarFallback: "SJ"
   },
   {
     quote: "The instant loading and clean interface make AntaTube my go-to platform for watching YouTube videos. It's simply brilliant!",
     author: "Michael Chen",
     role: "Tech Enthusiast",
-    avatar: "/avatars/michael.jpg",
+    avatar: "/avatars/michael.webp",
     avatarFallback: "MC"
   },
   {
-    quote: "Best YouTube streaming platform I've used. No ads, fast loading, and works perfectly on all my devices.",
+    quote: "Best YouTube streaming platform I've used. No ads, fast loading, and works perfectly on all my devices without interruptions.",
     author: "Emma Davis",
     role: "Digital Nomad",
-    avatar: "/avatars/emma.jpg",
+    avatar: "/avatars/emma.webp",
     avatarFallback: "ED"
   }
 ];
