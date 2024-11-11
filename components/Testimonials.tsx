@@ -63,7 +63,7 @@ export default function Testimonials() {
               <Card className="h-full hover:shadow-lg transition-shadow duration-300">
                 <CardHeader>
                   <div className="relative">
-                    <span className="absolute -left-4 -top-4 text-6xl text-primary opacity-20">"</span>
+                    <span className="absolute -left-4 -top-4 text-6xl text-primary opacity-20">&ldquo;</span>
                     <p className="text-lg relative z-10">{testimonial.quote}</p>
                   </div>
                 </CardHeader>
