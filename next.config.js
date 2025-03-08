@@ -51,7 +51,10 @@ const nextConfig = {
         ]
       }
     ]
-  }
+  },
+  env: {
+    AHREFS_ANALYTICS_KEY: process.env.AHREFS_ANALYTICS_KEY,
+  },
 }
 
 module.exports = withPWA(nextConfig)

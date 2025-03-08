@@ -20,6 +20,11 @@ export default function RootLayout({
         <link rel="icon" href="/icons/favicon.ico" />
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <meta name="theme-color" content="#ffffff" />
+        <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key={process.env.AHREFS_ANALYTICS_KEY}
+          async
+        />
       </head>
       <body className="min-h-screen antialiased" suppressHydrationWarning>
         <Providers>
