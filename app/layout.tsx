@@ -4,6 +4,7 @@ import { Providers } from './providers';
 import { defaultMetadata } from './metadata';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
+import { ErrorBoundary } from '@/components/ErrorBoundary';
 
 export const metadata: Metadata = defaultMetadata;
 
@@ -20,16 +21,18 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <body suppressHydrationWarning>
-        <div className="flex flex-col min-h-screen">
-          <Providers>
-            <Navbar />
-            <main className="flex-grow pt-16">
-              {children}
-            </main>
-            <Footer />
-          </Providers>
-        </div>
+      <body className="min-h-screen antialiased" suppressHydrationWarning>
+        <Providers>
+          <div className="flex flex-col min-h-screen">
+            <ErrorBoundary>
+              <Navbar />
+              <main className="flex-grow pt-16">
+                {children}
+              </main>
+              <Footer />
+            </ErrorBoundary>
+          </div>
+        </Providers>
       </body>
     </html>
   );

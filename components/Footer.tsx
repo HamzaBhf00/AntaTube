@@ -1,5 +1,7 @@
 "use client";
 
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className="w-full py-6 mt-auto border-t border-border">
@@ -8,22 +10,36 @@ export default function Footer() {
           <div className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} AntaTube. All rights reserved.
           </div>
-          
+
           <nav className="flex items-center space-x-6">
-            <a 
-              href="/privacy-policy" 
-              className="text-sm text-muted-foreground hover:text-primary transition-colors"
-            >
-              Privacy Policy
-            </a>
-            <a 
-              href="https://github.com/HamzaBhf00/AntaTube" 
-              target="_blank" 
+            {/*
+            <a
+              href="https://gumroad.com"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
             >
-              GitHub
+              Shop
             </a>
+            */}
+            <Link
+              href="/youtube-trends-explorer"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              Youtube Trends Explorer
+            </Link>
+            <Link
+              href="/youtube-thumbnail-grabber"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              Youtube Thumbnail Grabber
+            </Link>
+            <Link
+              href="/privacy-policy"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              Privacy Policy
+            </Link>
           </nav>
         </div>
       </div>

@@ -11,7 +11,7 @@ const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
 export default function Hero() {
   const [mounted, setMounted] = useState(false);
-  const [videoUrl, setVideoUrl] = useState("https://www.youtube.com/watch?v=4SNThp0YiU4&pp=ygUPbXJiZWFzdCBlbmdsaXNo");
+  const [videoUrl, setVideoUrl] = useState("https://www.youtube.com/watch?v=0BjlBnfHcHM&t=10s&pp=ugMGCgJlcxABugUEEgJlc8oFCG1yIGJlYXN0");
   const [inputUrl, setInputUrl] = useState("");
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -45,7 +45,7 @@ export default function Hero() {
           <div className="flex justify-center mb-8">
             <Badge variant="secondary" className="px-4 py-1 text-sm flex items-center gap-2">
               <Youtube className="h-4 w-4" />
-              Watch YouTube Videos
+              YouTube Without Ads!
             </Badge>
           </div>
 

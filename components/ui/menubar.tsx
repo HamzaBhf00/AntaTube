@@ -162,7 +162,9 @@ const MenubarRadioItem = React.forwardRef<
   >
     <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
       <MenubarPrimitive.ItemIndicator>
-        <Circle className="h-2 w-2 fill-current" />
+      <svg className="h-2 w-2 fill-current" viewBox="0 0 8 8">
+          <circle cx="4" cy="4" r="3" />
+        </svg>
       </MenubarPrimitive.ItemIndicator>
     </span>
     {children}

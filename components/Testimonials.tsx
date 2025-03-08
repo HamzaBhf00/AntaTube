@@ -17,14 +17,14 @@ const testimonials = [
     avatarFallback: "SJ"
   },
   {
-    quote: "The instant loading and clean interface make AntaTube my go-to platform for watching YouTube videos. It&apos;s simply brilliant!",
+    quote: "The instant loading and clean interface make AntaTube my go-to platform for watching YouTube videos. It is simply brilliant!",
     author: "Michael Chen",
     role: "Tech Enthusiast",
     avatar: "/avatars/michael.webp",
     avatarFallback: "MC"
   },
   {
-    quote: "Best YouTube streaming platform I&apos;ve used. No ads, fast loading, and works perfectly on all my devices without interruptions.",
+    quote: "Best YouTube streaming platform I have used. No ads, fast loading, and works perfectly on all my devices without interruptions.",
     author: "Emma Davis",
     role: "Digital Nomad",
     avatar: "/avatars/emma.webp",

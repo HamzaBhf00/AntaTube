@@ -1,4 +1,9 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://antatube.com/sitemap.xml
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://antatube.com
+
+# Sitemaps
+Sitemap: https://antatube.com/sitemap.xml

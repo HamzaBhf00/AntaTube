@@ -28,7 +28,7 @@ const features = [
 
 export default function HowToUse() {
   return (
-    <section className="py-24 bg-gradient-to-b from-background to-secondary/20">
+    <section id="how-to-use" className="py-24 bg-gradient-to-b from-background to-secondary/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -67,7 +67,7 @@ export default function HowToUse() {
                   <div className="px-6 pb-4">
                     <p className="text-muted-foreground">{feature.description}</p>
                   </div>
-                  
+
                   {feature.thumbnail && (
                     <div className="relative w-full aspect-video">
                       <Image

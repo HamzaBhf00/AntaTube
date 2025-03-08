@@ -1,5 +1,7 @@
 import dynamic from 'next/dynamic';
 import { websiteSchema, organizationSchema } from './structured-data'
+import MarketingBanner from '@/components/MarketingBanner';
+import AnnouncementBanner from '@/components/AnnouncementBanner';
 
 const Hero = dynamic(() => import('@/components/Hero'), { ssr: false });
 const Features = dynamic(() => import('@/components/Features'));
@@ -24,6 +26,8 @@ export default function Home() {
         }}
       />
       <main className="min-h-screen">
+      <MarketingBanner />
+      <AnnouncementBanner />
         <Hero />
         <section id="features">
           <Features />
